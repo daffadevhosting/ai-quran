@@ -1,0 +1,10 @@
+name = "ai-quran-workers"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "NEURON_LIMITER"
+id = "<your-kv-id>"
+
+[[kv_namespaces]]
+binding = "RATE_LIMITER"
+id = "<your-kv-id>"
