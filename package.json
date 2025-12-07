@@ -1,0 +1,22 @@
+{
+  "name": "ai-quran-workers",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker dengan AI untuk Al-Quran",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && cp node_modules/quran-json/quran.json dist/quran.json 2>/dev/null || echo 'Using module import'",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "quran-json": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
