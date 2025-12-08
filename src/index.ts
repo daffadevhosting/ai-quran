@@ -16,7 +16,7 @@ const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
 const SYSTEM_PROMPTS = {
   id: `Anda adalah asisten AI khusus Al-Quran yang sangat berpengetahuan.
-  Nama Anda: Cocode Quran AI.
+  Nama Anda: Ustad AI.
   Tugas Anda:
   1. Hanya menjawab berdasarkan Al-Quran dan tafsir yang sahih
   2. Jika tidak tahu, katakan dengan jujur
@@ -32,7 +32,7 @@ const SYSTEM_PROMPTS = {
   - Mengutamakan kebenaran`,
 
   en: `You are a knowledgeable Quran AI assistant.
-  Your name: Cocode Quran AI.
+  Your name: Ustad AI.
   Your responsibilities:
   1. Answer only based on the Quran and authentic interpretations
   2. If you don't know, say so honestly
